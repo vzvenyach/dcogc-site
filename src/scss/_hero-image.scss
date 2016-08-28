@@ -1,0 +1,38 @@
+.hero-image {
+    display: block;
+    height: 510px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      min-height: 510px;
+      opacity: 0.7;
+    }
+
+    .hero-image-content {
+        position: absolute;
+        background-color: $lightest-background;
+        top: 60px;
+        left: 20px;
+        padding: 60px;
+        opacity: 0.9;
+
+        color: $dark-text;
+    }
+
+    .hero-image-text {
+        position: relative;
+        left: 10px;
+        text-indent: -10px;
+        line-height: normal;
+
+        font: 20px $font-text;
+        font-style: italic;
+    }
+
+    .hero-image-header {
+        font-family: $font-header;
+        font-weight: 900;
+    }
+
+}

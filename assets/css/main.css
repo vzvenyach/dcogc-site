@@ -1,0 +1,36 @@
+.hero-image {
+  display: block;
+  height: 510px;
+  position: relative;
+  overflow: hidden; }
+  .hero-image img {
+    min-height: 510px;
+    opacity: 0.7; }
+  .hero-image .hero-image-content {
+    position: absolute;
+    background-color: #F0F8FF;
+    top: 60px;
+    left: 20px;
+    padding: 60px;
+    opacity: 0.9;
+    color: #222; }
+  .hero-image .hero-image-text {
+    position: relative;
+    left: 10px;
+    text-indent: -10px;
+    line-height: normal;
+    font: 20px "Roboto Condensed", sans-serif;
+    font-style: italic; }
+  .hero-image .hero-image-header {
+    font-family: "Merriweather", serif;
+    font-weight: 900; }
+
+.introduction {
+  padding-top: 20px;
+  background-color: #F0F8FF;
+  color: #222;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.cards-section {
+  background-color: #87CEEB;
+  padding-top: 20px; }
