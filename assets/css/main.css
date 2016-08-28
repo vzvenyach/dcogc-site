@@ -1,3 +1,9 @@
+.heading-link, .cards-section .card-title a, .news-section h3 a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  color: #222;
+  font-family: 'Oswald', sans-serif; }
+
 .hero-image {
   display: block;
   height: 510px;
@@ -18,20 +24,30 @@
     left: 10px;
     text-indent: -10px;
     line-height: normal;
-    font: 20px "Roboto Condensed", sans-serif;
+    font: 20px "Lato", sans-serif;
     font-style: italic; }
     .hero-image .hero-image-text strong {
       color: #FF3100;
       font-style: normal; }
   .hero-image .hero-image-header {
-    color: #FF3100;
+    color: #222;
     font-family: "Merriweather", serif;
     font-weight: 900; }
 
 .introduction {
   padding-top: 20px;
   background-color: #F3FBFE;
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Lato", sans-serif; }
+  .introduction h2 {
+    color: #FF3100;
+    font-family: "Merriweather", serif;
+    font-weight: 900; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+#main-navbar {
+  background-color: #222; }
 
 .cards-section {
   background-color: #87CEEB;
@@ -50,24 +66,21 @@
 .news-section .news-header-wrapper {
   padding-top: 20px; }
 
-.news-section h1 {
+.news-section h2 {
   color: #FF3100;
   font-family: "Merriweather", serif;
   font-weight: 900; }
 
-.news-section h2 {
-  color: #222; }
-
 .legal-section {
   padding-top: 20px; }
-  .legal-section h1 {
+  .legal-section h2 {
     color: #FF3100;
     font-family: "Merriweather", serif;
     font-weight: 900; }
 
 .about-section {
   padding-top: 20px; }
-  .about-section h1 {
+  .about-section h2 {
     color: #FF3100;
     font-family: "Merriweather", serif;
     font-weight: 900; }

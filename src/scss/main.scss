@@ -2,9 +2,21 @@
 @import 'hero-image';
 @import 'introduction';
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#main-navbar {
+    background-color: $dark-text;
+}
+
 .cards-section {
     background-color: $primary-color;
     padding-top: 20px;
+
+    .card-title a {
+        @extend .heading-link;
+    }
 }
 
 .footer-legal {
@@ -25,18 +37,18 @@
     .news-header-wrapper {
       padding-top: 20px;
     }
-    h1 {
+    h2 {
       color: $bold-color-dark;
       font-family: $font-header;
       font-weight: 900;
     }
-    h2 {
-      color: $dark-text;
+    h3 a {
+      @extend .heading-link;
     }
 }
 
 .legal-section {
-    h1 {
+    h2 {
       color: $bold-color-dark;
       font-family: $font-header;
       font-weight: 900;
@@ -46,7 +58,7 @@
 }
 
 .about-section {
-    h1 {
+    h2 {
       color: $bold-color-dark;
       font-family: $font-header;
       font-weight: 900;

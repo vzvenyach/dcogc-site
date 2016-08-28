@@ -2,4 +2,10 @@
     padding-top: 20px;
     background-color: $primary-color-light;
     font-family: $font-text;
+
+    h2 {
+      color: $bold-color-dark;
+      font-family: $font-header;
+      font-weight: 900;
+    }
 }

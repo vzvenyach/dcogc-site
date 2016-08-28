@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-primary">
+<nav id="main-navbar" class="navbar navbar-dark bg-inverse">
   <a class="navbar-brand" href="#">DC Open Government Coalition</a>
 
 

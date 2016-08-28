@@ -1,5 +1,5 @@
 $font-header: 'Merriweather', serif;
-$font-text: 'Roboto Condensed', sans-serif;
+$font-text: 'Lato', sans-serif;
 $dark-text: #222;
 
 $primary-color-light: #F3FBFE;
@@ -13,3 +13,10 @@ $alterate-color-dark: #FFB700;
 $bold-color-light: #FFF5F3;
 $bold-color: #FF7858;
 $bold-color-dark: #FF3100;
+
+.heading-link {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  color: $dark-text;
+  font-family: 'Oswald', sans-serif;
+}
