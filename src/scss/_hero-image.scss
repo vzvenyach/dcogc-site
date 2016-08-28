@@ -11,13 +11,11 @@
 
     .hero-image-content {
         position: absolute;
-        background-color: $lightest-background;
+        background-color: $primary-color-light;
         top: 60px;
         left: 20px;
         padding: 60px;
-        opacity: 0.9;
-
-        color: $dark-text;
+        opacity: 0.95;
     }
 
     .hero-image-text {
@@ -28,9 +26,15 @@
 
         font: 20px $font-text;
         font-style: italic;
+
+        strong {
+          color: $bold-color-dark;
+          font-style: normal;
+        }
     }
 
     .hero-image-header {
+        color: $bold-color-dark;
         font-family: $font-header;
         font-weight: 900;
     }

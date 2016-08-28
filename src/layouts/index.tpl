@@ -12,6 +12,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/vendor/font-awesome-4.6.3/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -21,10 +22,11 @@
   <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-dark bg-inverse">
-      <a class="navbar-brand" href="#">DC Open Government Coalition</a>
-    </nav>
+    {% include "includes/navbar.tpl" %}
     <!-- end navbar -->
+
+    <!-- social -->
+    <!-- end social -->
 
     <!-- hero image -->
     {% include "includes/hero.tpl" %}
@@ -36,9 +38,23 @@
 
     <!-- cards section -->
     {% include "includes/cards-section.tpl" %}
-    <!-- cards section -->
+    <!-- end cards section -->
 
-    <!-- end content -->
+    <!-- news section -->
+    {% include "includes/news-section.tpl" %}
+    <!-- end news section -->
+
+    <!-- legal section -->
+    {% include "includes/legal-section.tpl" %}
+    <!-- end legal section -->
+
+    <!-- about section -->
+    {% include "includes/about-section.tpl" %}
+    <!-- end about section -->
+
+    <!-- footer section -->
+    {% include "includes/footer.tpl" %}
+    <!-- end footer section -->
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>

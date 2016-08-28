@@ -3,6 +3,54 @@
 @import 'introduction';
 
 .cards-section {
-    background-color: $light-background;
+    background-color: $primary-color;
     padding-top: 20px;
+}
+
+.footer-legal {
+    text-align: center;
+}
+
+.footer-address {
+    text-align: right;
+}
+
+.footer {
+    padding-top: 20px;
+    background-color: $alternate-color-light;
+
+}
+
+.news-section {
+    .news-header-wrapper {
+      padding-top: 20px;
+    }
+    h1 {
+      color: $bold-color-dark;
+      font-family: $font-header;
+      font-weight: 900;
+    }
+    h2 {
+      color: $dark-text;
+    }
+}
+
+.legal-section {
+    h1 {
+      color: $bold-color-dark;
+      font-family: $font-header;
+      font-weight: 900;
+    }
+    padding-top: 20px;
+    // background-color: $bold-background;
+}
+
+.about-section {
+    h1 {
+      color: $bold-color-dark;
+      font-family: $font-header;
+      font-weight: 900;
+    }
+    padding-top: 20px;
+    // background-color: $lightest-background;
 }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "./node_modules/.bin/live-server --port=3000",
-    "build-html": "./node_modules/.bin/nunjucks index.tpl -p src/layouts",
+    "build-html": "./node_modules/.bin/nunjucks index.tpl -w -p src/layouts/",
     "build-sass": "./node_modules/.bin/node-sass --watch src/scss/main.scss assets/css/main.css",
     "build": "npm run build-sass & npm run build-html",
     "test": "echo \"Error: no test specified\" && exit 1"
