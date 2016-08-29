@@ -32,13 +32,13 @@
     {% include "includes/hero.tpl" %}
     <!-- end hero image -->
 
-    <!-- introduction -->
-    {% include "includes/introduction.tpl" %}
-    <!-- end introduction -->
-
     <!-- cards section -->
     {% include "includes/cards-section.tpl" %}
     <!-- end cards section -->
+
+    <!-- introduction -->
+    {% include "includes/introduction.tpl" %}
+    <!-- end introduction -->
 
     <!-- news section -->
     {% include "includes/news-section.tpl" %}

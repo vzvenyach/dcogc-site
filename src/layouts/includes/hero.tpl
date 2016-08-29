@@ -1,5 +1,4 @@
 <div class="hero-image">
-  <img src="assets/img/wilson.jpg" width=100% alt="">
   <div class="hero-image-content">
     <h1 class="hero-image-header">District of Columbia<br>Open Government Coalition</h1>
     <p class="hero-image-text">
