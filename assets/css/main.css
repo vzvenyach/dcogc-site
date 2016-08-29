@@ -1,15 +1,20 @@
-.heading-link, .cards-section .card-title a, .news-section h3 a {
+.heading-link, .cards-section .card-title a, .news-section h3 a, .breadcrumb .breadcrumb-item a {
   text-decoration: none;
   border-bottom: 1px dashed;
   color: #222;
   font-family: 'Oswald', sans-serif; }
+
+.heading-main, .news-and-updates-section h1 {
+  color: #E14C29;
+  font-family: "Merriweather", serif;
+  font-weight: 900; }
 
 .hero-image {
   height: 510px;
   background: url("../img/wilson.jpg"); }
   .hero-image .hero-image-content {
     position: absolute;
-    background-color: #FFFCF3;
+    background-color: #FFECBD;
     top: 124px;
     left: 20px;
     padding: 60px;
@@ -22,7 +27,7 @@
     font: 20px "Lato", sans-serif;
     font-style: italic; }
     .hero-image .hero-image-text strong {
-      color: #FF3100;
+      color: #E14C29;
       font-style: normal; }
   .hero-image .hero-image-header {
     color: #222;
@@ -33,7 +38,7 @@
   padding-top: 20px;
   font-family: "Lato", sans-serif; }
   .introduction h2 {
-    color: #FF3100;
+    color: #E14C29;
     font-family: "Merriweather", serif;
     font-weight: 900; }
 
@@ -41,10 +46,10 @@ body {
   font-family: 'Lato', sans-serif; }
 
 #main-navbar {
-  background-color: #222; }
+  background-color: #1F6D8E; }
 
 .cards-section {
-  background-color: #87CEEB;
+  background-color: #569CBA;
   padding-top: 20px; }
 
 .footer-legal {
@@ -55,26 +60,35 @@ body {
 
 .footer {
   padding-top: 20px;
-  background-color: #FFFCF3; }
+  background-color: #FFECBD; }
 
 .news-section .news-header-wrapper {
   padding-top: 20px; }
 
 .news-section h2 {
-  color: #FF3100;
+  color: #E14C29;
   font-family: "Merriweather", serif;
   font-weight: 900; }
 
 .legal-section {
   padding-top: 20px; }
   .legal-section h2 {
-    color: #FF3100;
+    color: #E14C29;
     font-family: "Merriweather", serif;
     font-weight: 900; }
 
 .about-section {
   padding-top: 20px; }
   .about-section h2 {
-    color: #FF3100;
+    color: #E14C29;
     font-family: "Merriweather", serif;
     font-weight: 900; }
+
+.breadcrumb {
+  background-color: #B3DBED; }
+  .breadcrumb .breadcrumb-item {
+    color: #222;
+    font-family: 'Oswald', sans-serif; }
+
+.news-and-updates-section {
+  padding-top: 20px; }

@@ -2,21 +2,27 @@ $font-header: 'Merriweather', serif;
 $font-text: 'Lato', sans-serif;
 $dark-text: #222;
 
-$primary-color-light: #F3FBFE;
-$primary-color: #87CEEB;
-$pimary-color-dark: #01A7EF;
+$primary-color-light: #B3DBED;
+$primary-color: #569CBA;
+$primary-color-dark: #1F6D8E;
 
-$alternate-color-light: #FFFCF3;
-$alternate-color: #FFD058;
-$alterate-color-dark: #FFB700;
+$alternate-color-light: #FFECBD;
+$alternate-color: #FFD66F;
+$alterate-color-dark: #E1AD29;
 
-$bold-color-light: #FFF5F3;
-$bold-color: #FF7858;
-$bold-color-dark: #FF3100;
+$bold-color-light: #FFCABD;
+$bold-color: #FF8B6F;
+$bold-color-dark: #E14C29;
 
 .heading-link {
   text-decoration: none;
   border-bottom: 1px dashed;
   color: $dark-text;
   font-family: 'Oswald', sans-serif;
+}
+
+.heading-main {
+  color: $bold-color-dark;
+  font-family: $font-header;
+  font-weight: 900;
 }

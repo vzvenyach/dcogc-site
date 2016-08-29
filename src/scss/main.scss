@@ -7,7 +7,7 @@ body {
 }
 
 #main-navbar {
-    background-color: $dark-text;
+    background-color: $primary-color-dark;
 }
 
 .cards-section {
@@ -30,7 +30,6 @@ body {
 .footer {
     padding-top: 20px;
     background-color: $alternate-color-light;
-
 }
 
 .news-section {
@@ -54,7 +53,6 @@ body {
       font-weight: 900;
     }
     padding-top: 20px;
-    // background-color: $bold-background;
 }
 
 .about-section {
@@ -64,5 +62,26 @@ body {
       font-weight: 900;
     }
     padding-top: 20px;
-    // background-color: $lightest-background;
+}
+
+.breadcrumb {
+  background-color: $primary-color-light;
+
+  .breadcrumb-item {
+    color: $dark-text;
+    font-family: 'Oswald', sans-serif;
+
+    a {
+      @extend .heading-link;
+    }
+  }
+}
+
+
+.news-and-updates-section {
+  padding-top: 20px;
+  // background-color: $primary-color-dark;
+  h1 {
+    @extend .heading-main;
+  }
 }
