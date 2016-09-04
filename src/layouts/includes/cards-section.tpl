@@ -5,7 +5,7 @@
         <div class="card">
           <img class="card-img-top" src="assets/img/typewriter.jpg" width=100% alt="Card image cap">
           <div class="card-block">
-            <h4 class="card-title"><a href="#">News and Updates</a></h4>
+            <h4 class="card-title"><a href="news.html">News and Updates</a></h4>
             <p class="card-text">Catch up on what's happening in DC Open Government on our blog.</p>
           </div>
         </div>
